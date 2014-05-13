@@ -8,11 +8,5 @@ LOCAL_CERTIFICATE := platform
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/library/res \
                       $(LOCAL_PATH)/res
 LOCAL_AAPT_FLAGS := --auto-add-overlay
+LOCAL_STATIC_JAVA_LIBRARIES := build-demos-library
 include $(BUILD_PACKAGE) 
-
-
-#LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/../XLewaSystemUIExt/res \
-#                    $(LEWA_SYSTEMUI_DIR)/res/dropdown \
-#                    $(LEWA_SYSTEMUI_DIR)/res/statusbar \
-#                    $(LEWA_SYSTEMUI_DIR)/res/values \
-#                    $(LOCAL_PATH)/res

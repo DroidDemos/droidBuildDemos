@@ -23,9 +23,10 @@ public class MainActivity extends Activity {
 	
 	@Override
 	protected void onResume() {
+		super.onResume();
 		TextView textView = (TextView)findViewById(R.id.textLibraryName);
 		textView.setText(R.string.app_name);
-		super.onResume();
+		com.juuda.builddemoslibrary.JavaNoR.main();
 	}
 	
 	/**
