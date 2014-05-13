@@ -6,4 +6,4 @@
 
 4. use the R file in library directly 
 
-5. 
+5. LOCAL_JAR_EXCLUDE_FILES := none
