@@ -27,6 +27,7 @@ public class MainActivity extends Activity {
 		TextView textView = (TextView)findViewById(R.id.textLibraryName);
 		textView.setText(R.string.app_name);
 		com.juuda.builddemoslibrary.JavaNoR.main();		
+		System.out.println(getResources().getString(com.juuda.builddemoslibrary.R.string.library_name));
 	}
 	
 	/**

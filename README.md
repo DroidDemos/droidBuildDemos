@@ -4,4 +4,6 @@
 
 3. use library with R files
 
-4. 
+4. use the R file in library directly 
+
+5. 
